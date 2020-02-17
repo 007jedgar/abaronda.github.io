@@ -1,0 +1,844 @@
+{
+  "settings": {
+    "name": "ABaronda",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#dfece6"
+      ]
+    },
+    "versionFirst": "4.3.0",
+    "uniqCompNum": 25,
+    "versionPublish": "4.10.7",
+    "favicon": "",
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "Andrew Baronda Photography. Local Houston Photogrpher. Event Photography, Private Shooting, Event Photography, Wedding Photography.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3396-edit-2000x560.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Live...",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-6502-2000x3000.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "in every...",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-1214-edit-2000x1333.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "<b>moment captured.</b>",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-0",
+          "_styles": {
+            "H2": {
+              "font-size": "30px",
+              "text-align": "center",
+              "color": "#fed5c5"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#fff",
+            "hamburgerColor": "#000"
+          },
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"book.html#msg-box4-c\">Book<br></a></li>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"about.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"book.html#form1-e\">Contact</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/abaronda-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">A &nbsp; B A R O N D A</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-1329-1400x2162.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Come<br> Explore With Me",
+          "text": "<p>A photographer comfortable in every situation. </p><p>I'm Andrew Baronda.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">More</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-2"
+        },
+        {
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#dfece6",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "<a href=\"https://www.instagram.com/abaronda/\" target=\"_blank\" class=\"text-info\">Follow Me</a>",
+          "icons": "    <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/abaronda/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>    ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-i"
+        }
+      ]
+    },
+    "book.html": {
+      "settings": {
+        "title": "Book",
+        "order": 3,
+        "meta_descr": "Book Andrew Baronda for Photography. A Local Houston Photogrpher. Event Photography, Private Shooting, Event Photography, Wedding Photography."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#fff",
+            "hamburgerColor": "#000"
+          },
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"book.html#msg-box4-c\">Book<br></a></li>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"about.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"book.html#form1-e\">Contact</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/abaronda-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">A &nbsp; B A R O N D A</a>",
+          "_name": "ext.menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "ext_menu-b"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-519-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://vimeo.com/164941607",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": "on",
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Let's book a shoot!",
+          "text": "<p>Bellow is a contact form if you want to contact me the old fassion way. </p><p>If you wanna book a shoot now, click the \"Book\" button for a form. </p><p>Feel free to ask me any questions bellow!</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://goo.gl/forms/JQ3RiVLJ5AsZ3nsW2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Book</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-c"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Let's Talk!",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Me</a>",
+          "form": {
+            "action": "dwxvip3r@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-e"
+        }
+      ]
+    },
+    "about.html": {
+      "settings": {
+        "title": "About",
+        "order": 1,
+        "meta_descr": "About Andrew Baronda Photography. Local Houston Photogrpher. Event Photography, Private Shooting, Event Photography, Wedding Photography."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#fff",
+            "hamburgerColor": "#000"
+          },
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"book.html#msg-box4-c\">Book<br></a></li>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"about.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"book.html#form1-e\">Contact</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/abaronda-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">A &nbsp; B A R O N D A</a>",
+          "_name": "ext.menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "ext_menu-9"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "37",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/abaronda-1000x1000.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "I'm Drew, A Local Houston Photogrpher",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><br></p><p>I do Portraits, Events, Brands, Weddings, </p><p>Private and Group &nbsp;Shoots. </p><p>Morning, Evening, Night.</p><p>I love to do what I do because there is a creative fraction of a second&nbsp;<span style=\"font-size: 1.25rem;\">when you are taking a picture.&nbsp;</span><span style=\"font-size: 1.25rem;\">Once you miss it, it is gone forever. Each moment captured is like a precious gem.</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">Booking/Contact</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">My Gems</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-f"
+        },
+        {
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f8f8f6",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Me",
+          "icons": "    <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/abaronda/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>    ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-k"
+        }
+      ]
+    },
+    "portfolio.html": {
+      "settings": {
+        "title": "Portfolio",
+        "order": 2,
+        "meta_descr": "Andrew Baronda Photography Portfolio. A Local Houston Photogrpher. Event Photography, Private Shooting, Event Photography, Wedding Photography."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#fff",
+            "hamburgerColor": "#000"
+          },
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"book.html#msg-box4-c\">Book<br></a></li>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"about.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"book.html#form1-e\">Contact</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/abaronda-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">A &nbsp; B A R O N D A</a>",
+          "_name": "ext.menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "ext_menu-3"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_params": {
+            "autoplay": true,
+            "showBullets": true,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-864-2000x3087.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "A",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-0399-edit-2000x3000.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "A",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-4875-edit-2000x3000.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "A",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false
+              }
+            ]
+          },
+          "articleLayout": true,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_anchor": "slider2-5",
+          "_styles": {
+            "H2": {
+              "text-align": "right",
+              "color": "#dddddd"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3828-edit-2000x2649.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3828-edit-2000x2649-800x1059.jpg",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3908-edit-2000x3410.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3908-edit-2000x3410-800x1364.jpg",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-5258-edit-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5258-edit-2000x3000-800x1200.jpg",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3171-2000x2693.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3171-2000x2693-800x1077.jpg",
+                "active": true,
+                "alt": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-7"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-6502-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6502-2000x3000-800x1200.jpg",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-5313-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5313-2000x3000-800x1200.jpg",
+                "active": true,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-7668-2000x3226.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7668-2000x3226-800x1290.jpg",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3725-2000x2963.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3725-2000x2963-800x1185.jpg",
+                "active": false,
+                "alt": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-h"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-6751-2000x2999.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6751-2000x2999-800x1199.jpg",
+                "active": true,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-5493-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5493-2000x3000-800x1200.jpg",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-6790-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6790-2000x3000-800x1200.jpg",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-5576-2000x2999.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5576-2000x2999-800x1199.jpg",
+                "active": false,
+                "alt": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-g"
+        },
+        {
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f8f8f6",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "Follow Me",
+          "icons": "    <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/abaronda/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>    ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-l"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "Error",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#fff",
+            "hamburgerColor": "#000"
+          },
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"book.html#msg-box4-c\">Book<br></a></li>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"about.html\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"book.html#form1-e\">Contact</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/abaronda-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">A &nbsp; B A R O N D A</a>",
+          "_name": "ext.menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "ext_menu-m"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-7509-2000x3231.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "Error 404:&nbsp;<br>Page Not Found",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-o",
+          "_styles": {
+            "H1": {
+              "color": "#fbfbfb"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
